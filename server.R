@@ -53,19 +53,7 @@ shinyServer(function(input, output) {
     data.frame(age, sex, oldpeak, fbs, exang, restecg, slope, ca, thal, stringsAsFactors = FALSE)
   })
   
-  # vals <- reactiveValues()
-  # observe({
-  #   vals$a <- as.numeric(input$age)
-  #   vals$b <- as.numeric(input$sex)
-  #   vals$c <- as.numeric(input$oldpeak)
-  #   vals$d <- as.numeric(input$fbs)
-  #   vals$e <- as.numeric(input$exang)
-  #   vals$f <- as.numeric(input$restecg)
-  #   vals$g <- as.numeric(input$slope)
-  #   vals$h <- as.numeric(input$ca)
-  #   vals$i <- as.numeric(input$thal)
-  #   })
-  
+ 
   output$values <- renderTable({
     inputValues()
   })

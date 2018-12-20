@@ -9,3 +9,8 @@ The objective of this application is to provide doctors a platform to use existi
 This application will provide advance verification and precaution for doctors, so that doctors may reduce the risk of misdiagnosing cardiovascular disease.
 
 To implement machine learning in our application, we are using Cleveland heart disease dataset which we obtained from UCI Machine Learning Repository.
+
+Below link is the prediction apps.
+
+https://yy-yew.shinyapps.io/cvd_2018/
+
